@@ -1,1 +1,37 @@
-/* write your override styles here */
+/* Override existing styles to hide the graffiti tags */
+
+/* Remove tag-1 by targeting it inside the #wall */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Remove tag-2 by targeting it inside the #wall */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Remove tag-3 (with class slick) by targeting it inside the #wall */
+  #wall #tag-3.slick {
+    display: none;
+  }
+  
+  /* Remove tag-4 by targeting it inside the #wall */
+  #wall #tag-4 {
+    display: none;
+  }
+  
+  /* Remove tag-5 (with class slick) by targeting it inside the #wall */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Remove tag-6 by targeting it inside the #wall */
+  #wall div.parent div:last-child div#tag-6 {
+    display: none;
+  }
+  
+  /* Remove tag-7 (with class slick) by targeting it inside the #wall */
+  #wall div.parent div > #tag-7.slick {
+    display: none;
+  }
+  
